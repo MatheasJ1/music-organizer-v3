@@ -146,5 +146,19 @@ public class MusicPlayer
     {
         System.out.println("There was a problem playing: " + filename);
     }
-
+    
+    
+    /*public void playSampleByArtist( String searchString){
+        boolean foundTracks = false;
+        for (String filename : files) {
+            if (filename.contains(searchString)){
+                player.playSample(filename.contains(searchString));
+                foundTracks = true;
+            }
+            if (!foundTracks){
+                System.out.println("No tracks found for this artist.");
+                foundTracks = false;
+            }
+    }
+    }*/
 }
